@@ -1,0 +1,8 @@
+Please visit http://thisisrobv.com/2009/08/21/introducing-the-most-simple-input-hint-plugin/ for sample usage and 
+more information.
+
+REQUIREMENTS:
+jQuery
+
+SAMPLE USAGE:
+$('input.hint').input_hint({attribute: 'title'});
