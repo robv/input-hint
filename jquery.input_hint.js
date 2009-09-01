@@ -1,10 +1,10 @@
 (function($) {
 
 	$.fn.input_hint = function(params) {
-		
+
 		// merge default and user parameters
-		params = $.extend( {attribute: 'title'}, params);
-		
+		params = $.extend({attribute: 'title'}, params);
+
 		// traverse all nodes
 	    return this.each(function() {
 
