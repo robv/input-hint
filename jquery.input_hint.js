@@ -9,8 +9,9 @@
 	    return this.each(function() {
 
 	        var $this = $(this);
-
-	        $this.attr('value', $this.attr(params.attribute));
+			
+	        if ($this.attr('value') == '')
+	        	$this.attr('value', $this.attr(params.attribute));
 
 	        $this.focus(function() {
 	            if ($this.attr('value') == $this.attr(params.attribute))
